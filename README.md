@@ -7,31 +7,67 @@
   <img src="https://img.shields.io/badge/Security-Passive%20Recon-red?style=for-the-badge">
 </p>
 
-> ⚡ Powerful • Passive • Informative  
-> Deep WordPress reconnaissance tool for security auditing & analysis only
+> ⚡ Deep reconnaissance • Passive scanning • Zero exploitation  
+> WP-Dex is a powerful Python-based tool designed to gather detailed intelligence about WordPress websites without modifying or attacking the target.
 
 ---
 
 ## 📸 Preview
 
-![Scan Screenshot](./images/scan-output.png)
-![Report Screenshot](./images/report-example.png)
+### 🔍 Scan Output
+![Scan Output](Screenshot.png)
+
 
 ---
 
-## 🚀 Features
+## 🚀 What is WP-Dex?
 
-- 🔎 WordPress Detection
-- 🖥️ Server Fingerprinting
-- 🔢 Version Detection
-- 👤 User Enumeration
-- 📧 Email Harvesting
-- 🔌 Plugin Detection
-- 🎨 Theme Detection
-- 🗺️ Site Mapping
-- 🌐 Social Extraction
-- ⚠️ CVE Lookup
-- 🔒 Security Checks
+WP-Dex is a passive reconnaissance tool built for security researchers, developers, and ethical hackers.  
+It collects publicly accessible data from WordPress websites and presents it in a structured, readable format.
+
+Unlike aggressive tools, WP-Dex does NOT exploit vulnerabilities — it only reveals what is already exposed.
+
+---
+
+### 🔍 Scan Output
+![Report Output](Screenshot1.png)
+
+---
+
+## 🧠 What Does It Do?
+
+### 🔎 WordPress Detection
+Confirms if a target is running WordPress using multiple indicators.
+
+### 🖥️ Server & Technology Fingerprinting
+Detects server type, PHP version, CDN/WAF, and technologies like jQuery, Bootstrap, WooCommerce, Elementor.
+
+### 🔢 WordPress Version Detection
+Extracts version from meta tags, feeds, readme files, and scripts.
+
+### 👤 User Enumeration
+Discovers usernames via REST API, author ID, sitemaps, and oEmbed.
+
+### 📧 Email Harvesting
+Extracts emails from page content and mailto links.
+
+### 🔌 Plugin Detection
+Finds plugins via source analysis, probing, and database matching.
+
+### 🎨 Theme Detection
+Identifies themes and extracts metadata like version and author.
+
+### 🗺️ Site Structure Mapping
+Maps pages, posts, categories, tags, and menus.
+
+### 🌐 Social & Contact Info
+Extracts social profiles and phone numbers.
+
+### ⚠️ Vulnerability Matching
+Matches plugins with known CVEs using offline database.
+
+### 🔒 Security Checks
+Checks exposed paths and analyzes HTTP security headers.
 
 ---
 
@@ -45,11 +81,23 @@ pip install requests beautifulsoup4
 
 ---
 
-## 🧠 Usage
+## ▶️ Usage
 
 ```bash
 python wp_recon.py https://example.com
 ```
+
+---
+
+### 🔍 Scan Output
+![Report Output](Screenshot2.png)
+
+---
+
+## 📂 Output
+
+- Terminal (structured output)
+- JSON report (optional)
 
 ---
 
