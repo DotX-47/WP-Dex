@@ -14,9 +14,13 @@
 
 ## 📸 Preview
 
-### 🔍 Scan Output
-![Scan Output](Screenshot.png)
+### 🔍 Banner
+![Scan Output](./images/banner.png)
 
+---
+
+### 🔍 Scan Output
+![Report Output](./images/Screenshot1.png)
 
 ---
 
@@ -30,7 +34,7 @@ Unlike aggressive tools, WP-Dex does NOT exploit vulnerabilities — it only rev
 ---
 
 ### 🔍 Scan Output
-![Report Output](Screenshot1.png)
+![Report Output](./images/Screenshot2.png)
 
 ---
 
@@ -71,6 +75,11 @@ Checks exposed paths and analyzes HTTP security headers.
 
 ---
 
+### 🔍 Scan Output
+![Report Output](./images/Screenshot3.png)
+
+---
+
 ## ⚙️ Installation
 
 ```bash
@@ -90,7 +99,7 @@ python wp_recon.py https://example.com
 ---
 
 ### 🔍 Scan Output
-![Report Output](Screenshot2.png)
+![Report Output](./images/Screenshot4.png)
 
 ---
 
