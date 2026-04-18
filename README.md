@@ -83,8 +83,8 @@ Checks exposed paths and analyzes HTTP security headers.
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/wp-dex.git
-cd wp-dex
+git clone https://github.com/DotX-47/WP-Dex.git
+cd WP-Dex
 pip install requests beautifulsoup4
 ```
 
@@ -93,7 +93,7 @@ pip install requests beautifulsoup4
 ## ▶️ Usage
 
 ```bash
-python wp_recon.py https://example.com
+python WP-Dex https://example.com
 ```
 
 ---
